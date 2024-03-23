@@ -1,0 +1,815 @@
+repo_name: MidniteMekanix/open-intelligence
+report_id: 6b95d600d07619bd423f9753d347408c
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-23T15:59:52+00:00'
+requested_by: norkator
+provider: github
+branch: master
+detected_tools_count: 61
+tools:
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 5.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:25:24.000000000 Z
+- name: Chart.js
+  description: Simple, clean and engaging charts for designers and developers
+  website_url: http://www.chartjs.org/
+  version: 3.9.1
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3866/_GD1-XrU_400x400.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:25:24.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-08 18:49:09.000000000 Z
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-16 18:07:32.000000000 Z
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/Dockerfile
+  detection_source: api/Dockerfile
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2021-10-18 16:47:00.000000000 Z
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  version: 3.6.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-21 19:05:09.000000000 Z
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:25:24.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-07 17:00:12.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 6.26.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:00:41.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-10-01 17:35:19.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/.github/workflows/frontend-test.yml
+  detection_source: ".github/workflows/frontend-test.yml"
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2021-06-26 08:16:03.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2020-09-12 15:52:23.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-16 18:07:32.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2020-09-12 15:52:23.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-16 18:07:32.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-06-23 17:54:58.000000000 Z
+- name: scikit-image
+  description: Image processing in Python
+  website_url: http://scikit-image.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1294/897180.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-04-12 13:20:28.000000000 Z
+- name: Keras
+  description: Deep Learning library for Theano and TensorFlow
+  website_url: https://keras.io/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/5601/keras.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2021-06-23 20:23:46.000000000 Z
+- name: MXNet
+  description: A flexible and efficient library for deep learning
+  website_url: https://www.mxnet.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/8352/kxyKWxfA_400x400.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-16 18:07:32.000000000 Z
+- name: Moment.js
+  description: A JavaScript date library for parsing, validating, manipulating, and
+    formatting dates
+  website_url: http://momentjs.com/
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:05:34.000000000 Z
+- name: Nodemailer
+  description: A module for Node.js applications to allow email sending
+  website_url: http://www.nodemailer.com/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Transactional Email
+  image_url: https://img.stackshare.io/service/2862/qr2-jCLr.jpg
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-10-01 17:35:19.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.18.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-16 18:07:32.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence
+  detection_source: Repo Metadata
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  version: 2.0.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2021-06-23 20:23:46.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.27.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:25:24.000000000 Z
+- name: i18next
+  description: Internationalization-framework written in and for JavaScript
+  website_url: https://www.i18next.com/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Translation Service
+  image_url: https://img.stackshare.io/service/4747/default_82286a88bf01c80539ebd1d6dbea1b25df8af16d.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:06:48.000000000 Z
+- name: scikit-learn
+  description: Easy-to-use and general-purpose machine learning in Python
+  website_url: http://scikit-learn.org/stable/
+  version: 0.22.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/2657/scikit-learn-logo.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-04-12 13:20:28.000000000 Z
+- name: setuptools
+  website_url: https://github.com/pypa/setuptools
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10517/647025.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2021-06-23 20:23:46.000000000 Z
+- name: "@testing-library/jest-dom"
+  description: Custom jest matchers to test the state of the DOM
+  package_url: https://www.npmjs.com/@testing-library/jest-dom
+  version: 5.16.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-10-01 17:34:11.000000000 Z
+- name: "@testing-library/react"
+  description: Simple and complete React DOM testing utilities that encourage good
+    testing practices
+  package_url: https://www.npmjs.com/@testing-library/react
+  version: 13.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 29.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:08:52.000000000 Z
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 18.11.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:08:52.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.24
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 5.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.18.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-08 18:49:09.000000000 Z
+- name: helmet
+  description: Help secure Express/Connect apps with various HTTP headers
+  package_url: https://www.npmjs.com/helmet
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16584/default_7be6bee773ad8b04cf2fb7e9ff82f5d7ba648dfd.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:00:48.000000000 Z
+- name: moment
+  description: Parse, validate, manipulate, and display dates
+  package_url: https://www.npmjs.com/moment
+  version: 2.29.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:05:34.000000000 Z
+- name: node-schedule
+  description: A cron-like and not-cron-like job scheduler for Node
+  package_url: https://www.npmjs.com/node-schedule
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17126/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-10-01 17:35:19.000000000 Z
+- name: pg
+  description: PostgreSQL client - pure javascript &amp; libpq with the same API
+  package_url: https://www.npmjs.com/pg
+  version: 8.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16197/default_3d197518f6bb529bfcc1b685e2cefbdfe83ff108.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/api/package.json
+  detection_source: api/package.json
+  last_updated_by: Norkator
+  last_updated_on: 2020-01-07 17:00:12.000000000 Z
+- name: react-bootstrap
+  description: Bootstrap 3 components built with React
+  package_url: https://www.npmjs.com/react-bootstrap
+  version: 2.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16383/default_92302d1bbf4c0f67b862869662b4f69002c94aad.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: react-i18next
+  description: Internationalization for react done right
+  package_url: https://www.npmjs.com/react-i18next
+  version: 11.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17777/default_65e03f67ad735337587d736d5fbc87b538eccdf7.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 8.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: react-router
+  description: A complete routing library for React
+  package_url: https://www.npmjs.com/react-router
+  version: 6.4.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: react-scripts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2022-12-01 07:10:53.000000000 Z
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/front-end/package.json
+  detection_source: front-end/package.json
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2022-09-26 19:25:24.000000000 Z
+- name: setuptools
+  description: Easily download
+  package_url: https://pypi.org/project/setuptools
+  version: 41.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19831/default_65d1c12a133e1aa67ae96a1221c9c122ddf86c5f.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Martin Kankaanranta
+  last_updated_on: 2021-06-23 20:23:46.000000000 Z
+  vulnerabilities:
+  - name: pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)
+    cve_id: CVE-2022-40897
+    cve_url: https://github.com/advisories/GHSA-r9hx-vwmv-q579
+    detected_date: Dec 28
+    severity: high
+    first_patched: 65.5.1
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  version: 4.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2021-07-12 07:00:44.000000000 Z
+- name: psycopg2
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2
+  version: 2.8.4
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20416/default_64aa60b33468d1d28611966765867676f6303b64.png
+  detection_source_url: https://github.com/MidniteMekanix/open-intelligence/blob/master/python/requirements_linux.txt
+  detection_source: python/requirements_linux.txt
+  last_updated_by: Norkator
+  last_updated_on: 2020-04-07 17:46:12.000000000 Z
